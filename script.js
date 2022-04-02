@@ -33,6 +33,7 @@ input3.className = "button";
 input3.setAttribute("type", "button");
 input3.setAttribute("value", "1");
 input3.setAttribute("onclick", "show('1')");
+input3.setAttribute("id","1");
 
 td3.appendChild(input3);
 
@@ -42,6 +43,7 @@ input4.className = "button";
 input4.setAttribute("type", "button");
 input4.setAttribute("value", "2");
 input4.setAttribute("onclick", "show('2')");
+input4.setAttribute("id","2");
 
 td4.appendChild(input4);
 
@@ -51,6 +53,7 @@ input5.className = "button";
 input5.setAttribute("type", "button");
 input5.setAttribute("value", "3");
 input5.setAttribute("onclick", "show('3')");
+input5.setAttribute("id","3");
 
 td5.appendChild(input5);
 
@@ -60,6 +63,7 @@ input6.className = "button";
 input6.setAttribute("type", "button");
 input6.setAttribute("value", "/");
 input6.setAttribute("onclick", "show('/')");
+input6.setAttribute("id","dived");
 
 td6.append(input6);
 tr2.append(td3, td4, td5, td6)
@@ -100,6 +104,7 @@ input10.className = "button";
 input10.setAttribute("type", "button");
 input10.setAttribute("value", "-");
 input10.setAttribute("onclick", "show('-')");
+input10.setAttribute("id","subtract");
 
 td10.append(input10);
 tr3.append(td7, td8, td9, td10);
@@ -170,6 +175,7 @@ input17.setAttribute("type", "button");
 input17.setAttribute("value", "=");
 input17.setAttribute("onclick", "result()");
 input17.setAttribute("style", "background-color: #FF0000")
+input17.setAttribute("id","equal")
 
 td17.appendChild(input17);
 
